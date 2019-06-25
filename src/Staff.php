@@ -2,7 +2,7 @@
 namespace Acme;
 class Staff
 {
-    protected $members = [];
+    public $members = [];
 
 
     public function __construct($members = [])

@@ -17,12 +17,14 @@ Class Task
     {
         $this->completed = true;
     }
+
+
 }
 
 $task = new Task("Wake Up", 'I have to wake up from my dream');
 
-var_dump($task->title);
-var_dump($task->description);
+//var_dump($task->title);
+//var_dump($task->description);
 
 //$task2 = new Task("Brush your teeth!");
 

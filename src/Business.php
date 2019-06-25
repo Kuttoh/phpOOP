@@ -2,7 +2,7 @@
 namespace Acme;
 class Business
 {
-    protected $staff;
+    public $staff;
 
     public function __construct(Staff $staff)
     {
