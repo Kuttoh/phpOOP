@@ -13,4 +13,4 @@ $bold = new Business($staff);
 $bold->hire(new Acme\Person('Esther Muthoni'));
 $bold->hire(new Acme\Person('Jessica Obonyo'));
 
-var_dump($bold->getStaffMembers());
+//var_dump($bold->getStaffMembers());
